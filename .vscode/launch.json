@@ -22,11 +22,11 @@
 
             // If you have changed target frameworks, make sure to update the program path.
 
-            "program": "${workspaceFolder}/ContosoUniversity/bin/Debug/net7.0/ContosoUniversity.dll",
+            "program": "${workspaceFolder}/EnglandUniversity/bin/Debug/net7.0/EnglandUniversity.dll",
 
             "args": [],
 
-            "cwd": "${workspaceFolder}/ContosoUniversity",
+            "cwd": "${workspaceFolder}/EnglandUniversity",
 
             "stopAtEntry": false,
 

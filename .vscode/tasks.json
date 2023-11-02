@@ -16,7 +16,7 @@
 
                 "build",
 
-                "${workspaceFolder}/ContosoUniversity/ContosoUniversity.csproj",
+                "${workspaceFolder}/EnglandUniversity/EnglandUniversity.csproj",
 
                 "/property:GenerateFullPaths=true",
 
@@ -40,7 +40,7 @@
 
                 "publish",
 
-                "${workspaceFolder}/ContosoUniversity/ContosoUniversity.csproj",
+                "${workspaceFolder}/EnglandUniversity/EnglandUniversity.csproj",
 
                 "/property:GenerateFullPaths=true",
 
@@ -68,7 +68,7 @@
 
                 "--project",
 
-                "${workspaceFolder}/ContosoUniversity/ContosoUniversity.csproj"
+                "${workspaceFolder}/EnglandUniversity/EnglandUniversity.csproj"
 
             ],
 
