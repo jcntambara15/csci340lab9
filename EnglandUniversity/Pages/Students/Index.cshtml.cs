@@ -24,7 +24,7 @@ namespace EnglandUniversity.Pages.Students
 
         public string NameSort { get; set; }
         public string DateSort { get; set; }
-        // public string AgeSort { get; set; }
+        public string AgeSort { get; set; }
         public string CurrentFilter { get; set; }
         public string CurrentSort { get; set; }
 
@@ -36,7 +36,7 @@ namespace EnglandUniversity.Pages.Students
             CurrentSort = sortOrder;
             NameSort = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
             DateSort = sortOrder == "Date" ? "date_desc" : "Date";
-            // AgeSort = sortOrder == "Age" ? "age_desc" : "Age";
+            AgeSort = sortOrder == "Age" ? "age_desc" : "Age";
             if (searchString != null)
             {
                 pageIndex = 1;
@@ -62,9 +62,9 @@ namespace EnglandUniversity.Pages.Students
                 case "name_desc":
                     studentsIQ = studentsIQ.OrderByDescending(s => s.LastName);
                     break;
-                // case "age_desc":
-                //     studentsIQ = studentsIQ.OrderByDescending(s => s.Age);
-                //     break;
+                case "age_desc":
+                    studentsIQ = studentsIQ.OrderByDescending(s => s.Age);
+                    break;
                 case "Date":
                     studentsIQ = studentsIQ.OrderBy(s => s.EnrollmentDate);
                     break;

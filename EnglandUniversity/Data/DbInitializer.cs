@@ -19,64 +19,64 @@ namespace EnglandUniversity.Data
             {
                 FirstMidName = "Carson",
                 LastName = "Alexander",
-                EnrollmentDate = DateTime.Parse("2016-09-01")
-                // Age = 20
+                EnrollmentDate = DateTime.Parse("2016-09-01"),
+                Age = 20
             };
 
             var alonso = new Student
             {
                 FirstMidName = "Meredith",
                 LastName = "Alonso",
-                EnrollmentDate = DateTime.Parse("2018-09-01")
-                // Age = 45
+                EnrollmentDate = DateTime.Parse("2018-09-01"),
+                Age = 45
             };
 
             var anand = new Student
             {
                 FirstMidName = "Arturo",
                 LastName = "Anand",
-                EnrollmentDate = DateTime.Parse("2019-09-01")
-                // Age = 23
+                EnrollmentDate = DateTime.Parse("2019-09-01"),
+                Age = 23
             };
 
             var barzdukas = new Student
             {
                 FirstMidName = "Gytis",
                 LastName = "Barzdukas",
-                EnrollmentDate = DateTime.Parse("2018-09-01")
-                // Age = 100
+                EnrollmentDate = DateTime.Parse("2018-09-01"),
+                Age = 100
             };
 
             var li = new Student
             {
                 FirstMidName = "Yan",
                 LastName = "Li",
-                EnrollmentDate = DateTime.Parse("2018-09-01")
-                // Age = 72
+                EnrollmentDate = DateTime.Parse("2018-09-01"),
+                Age = 72
             };
 
             var justice = new Student
             {
                 FirstMidName = "Peggy",
                 LastName = "Justice",
-                EnrollmentDate = DateTime.Parse("2017-09-01")
-                // Age = 12
+                EnrollmentDate = DateTime.Parse("2017-09-01"),
+                Age = 12
             };
 
             var norman = new Student
             {
                 FirstMidName = "Laura",
                 LastName = "Norman",
-                EnrollmentDate = DateTime.Parse("2019-09-01")
-                // Age = 32
+                EnrollmentDate = DateTime.Parse("2019-09-01"),
+                Age = 32
             };
 
             var olivetto = new Student
             {
                 FirstMidName = "Nino",
                 LastName = "Olivetto",
-                EnrollmentDate = DateTime.Parse("2011-09-01")
-                // Age = 16
+                EnrollmentDate = DateTime.Parse("2011-09-01"),
+                Age = 16
             };
 
             var students = new Student[]

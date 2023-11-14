@@ -21,10 +21,10 @@ namespace EnglandUniversity.Models
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
         [Display(Name = "Enrollment Date")]
         public DateTime EnrollmentDate { get; set; }
+        public int Age { get; set; }
         [Display(Name = "Full Name")]
         public string FullName
-        // [Display(Name = "Age")]
-        // public int Age
+
         {
             get
             {
